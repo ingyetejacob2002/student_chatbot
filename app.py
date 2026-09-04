@@ -9,7 +9,7 @@ from groq import Groq
 
 load_dotenv()
 
-API_KEY = "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"
+API_KEY = "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"
 
 if not API_KEY:
     st.error("GROQ_API_KEY is missing from your .env file.")
